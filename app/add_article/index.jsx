@@ -43,9 +43,9 @@ export default function AddNew() {
       name: 'upload.jpg',
     });
     data.append('upload_preset', 'usersImg'); 
-    data.append('cloud_name', 'dkcz69xdl'); 
+    data.append('cloud_name', '*****'); 
 
-    const res = await fetch('https://api.cloudinary.com/v1_1/dkcz69xdl/image/upload', {
+    const res = await fetch('https://api.cloudinary.com/v1_1/****/image/upload', {
       method: 'POST',
       body: data,
     });
